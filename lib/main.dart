@@ -49,48 +49,48 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _userTransaction = [
-    Transaction(
-      id: 't1',
-      title: 'New Shoes',
-      amount: 800,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't2',
-      title: 'Weakly Groceries',
-      amount: 300,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't3',
-      title: 'Jam',
-      amount: 100,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't4',
-      title: 'Medicines',
-      amount: 250,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't5',
-      title: 'Vegetables',
-      amount: 50,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't6',
-      title: 'Fruits',
-      amount: 100,
-      date: DateTime.now(),
-    ),
-    Transaction(
-      id: 't7',
-      title: 'Tax',
-      amount: 800,
-      date: DateTime.now(),
-    )
+  //   Transaction(
+  //     id: 't1',
+  //     title: 'New Shoes',
+  //     amount: 800,
+  //     date: DateTime.now(),
+  //   ),
+  //   Transaction(
+  //     id: 't2',
+  //     title: 'Weakly Groceries',
+  //     amount: 300,
+  //     date: DateTime.now(),
+  //   ),
+  //   Transaction(
+  //     id: 't3',
+  //     title: 'Jam',
+  //     amount: 100,
+  //     date: DateTime.now(),
+  //   ),
+  //   Transaction(
+  //     id: 't4',
+  //     title: 'Medicines',
+  //     amount: 250,
+  //     date: DateTime.now(),
+  //   ),
+  //   Transaction(
+  //     id: 't5',
+  //     title: 'Vegetables',
+  //     amount: 50,
+  //     date: DateTime.now(),
+  //   ),
+  //   Transaction(
+  //     id: 't6',
+  //     title: 'Fruits',
+  //     amount: 100,
+  //     date: DateTime.now(),
+  //   ),
+  //   Transaction(
+  //     id: 't7',
+  //     title: 'Tax',
+  //     amount: 800,
+  //     date: DateTime.now(),
+  //   )
   ];
 
   void _addNewTransaction(String title, double amount) {
