@@ -25,7 +25,7 @@ class TransactionList extends StatelessWidget {
                     border: Border.all(
                         color: Theme.of(context).primaryColorLight, width: 2)),
                 padding: const EdgeInsets.all(10),
-                width: 110,
+                width: 120,
                 child: Text(
                   '\$: ${transactions[index].amount.toStringAsFixed(2)}',
                   style: TextStyle(
@@ -40,10 +40,7 @@ class TransactionList extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     transactions[index].title,
-                    style: TextStyle(
-                        fontSize: 16,
-                        color: Theme.of(context).primaryColor,
-                        fontWeight: FontWeight.bold),
+                    style: Theme.of(context).textTheme.headline6,
                   ),
                   Text(
                     DateFormat.yMMMd()
