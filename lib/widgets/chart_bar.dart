@@ -16,7 +16,9 @@ class Chart_Bar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Text("\$ $amount "),
+        FittedBox(
+          child: Text("\$ $amount "),
+        ),
         SizedBox(
           height: 4,
         ),
