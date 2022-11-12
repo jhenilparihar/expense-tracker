@@ -13,7 +13,6 @@ class TransactionList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 500,
       margin: const EdgeInsets.symmetric(vertical: 0, horizontal: 5),
       child: transactions.isEmpty
           ? Column(
